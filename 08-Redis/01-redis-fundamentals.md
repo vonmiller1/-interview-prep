@@ -2483,3 +2483,5 @@ Interview coding questions
 The key takeaway:
 
 > **Redis is not simply "a fast cache." It is an in-memory data structure system. The important backend skill is choosing the right Redis data structure, designing safe key patterns, understanding atomicity and expiration, and knowing when Redis should complement rather than replace the primary database.**
+
+Plan for production: set **`maxmemory`** and an **eviction policy** before Redis becomes the system of record for hot data—see [Expiration, eviction, and memory management](03-redis-expiration-eviction-memory-management.md).
