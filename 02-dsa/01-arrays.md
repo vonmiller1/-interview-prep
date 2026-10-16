@@ -1203,3 +1203,10 @@ Arrays
 ## Interview Rule
 
 > **Do not jump directly into coding. First identify the pattern. For array problems, the most important patterns are hashing, two pointers, sliding window, prefix sum, binary search and Kadane's algorithm.**
+
+---
+
+## See also
+
+- [Hashing](03-hashing.md) — complements array problems that need O(1) lookups
+- [Study index](../README.md#study-guides) · [30-day roadmap](../ROADMAP.md)
