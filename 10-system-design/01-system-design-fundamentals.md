@@ -2524,3 +2524,5 @@ Other services
 only when the system's requirements justify each step.
 
 **File 01 complete.**
+
+Continue with [Requirements and estimation](02-requirements-and-estimation.md) and, for interview drills, [System design case studies](21-system-design-case-studies.md). [Study index](../README.md#study-guides) · [Roadmap](../ROADMAP.md)
