@@ -2317,3 +2317,5 @@ Use this:
 > "Microservices is an architectural style where an application is divided into independently deployable services aligned with business capabilities. Each service owns a focused responsibility and ideally its data. Services communicate through APIs or messaging. The main benefits are independent deployment, scaling and team ownership, but the trade-off is distributed-system complexity such as network failures, eventual consistency, distributed transactions and observability. I would choose microservices when those benefits justify the additional operational complexity."
 
 That is the foundation for the rest of the microservices section.
+
+Next: [Service decomposition and bounded contexts](02-microservices-service-decomposition-bounded-contexts.md). [Study index](../README.md#study-guides) · [Roadmap](../ROADMAP.md)
