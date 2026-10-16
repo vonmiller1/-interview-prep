@@ -1121,6 +1121,8 @@ CorsConfigurationSource corsConfigurationSource() {
 
 Do not use unrestricted origins in production without understanding the security implications.
 
+**Credentials and wildcards:** Browsers reject CORS responses that combine `Access-Control-Allow-Origin: *` with `Access-Control-Allow-Credentials: true`. In Spring, do not set `setAllowCredentials(true)` while allowing all origins; list explicit trusted origins (or patterns) instead.
+
 ---
 
 # 49. HTTPS
