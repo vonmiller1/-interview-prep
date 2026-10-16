@@ -2174,3 +2174,5 @@ File 08 → Advanced Hibernate & Interview Scenarios
 The key interview lesson is:
 
 > **Hibernate is not magic. It is an ORM layer that manages entity state and translates object operations into database operations. To use it well, you need to understand both the Java object model and what SQL/database work Hibernate is actually performing.**
+
+[Study index](../README.md#study-guides) · Next: [Entity relationships and mapping](02-entity-relationships-and-mapping.md)
