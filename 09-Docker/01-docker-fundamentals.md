@@ -2413,3 +2413,5 @@ Docker interview questions
 Key takeaway:
 
 > **Docker's core mental model is simple: a Dockerfile builds an image, and an image runs as a container. Containers are ephemeral, so persistent data belongs in volumes or external storage. For Spring Boot, the next important step is learning how to build small, secure, reproducible images and connect the application to MySQL and Redis through Docker networks.**
+
+Next: [Docker images, Dockerfile, and build optimization](02-docker-images-dockerfile-build-optimization.md) · [Study index](../README.md#study-guides)
