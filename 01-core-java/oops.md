@@ -655,3 +655,10 @@ What follow-up questions can the interviewer ask?
 ```
 
 This is the difference between **knowing OOP** and being able to **answer an OOP interview question confidently**.
+
+---
+
+## See also
+
+- [SOLID and OOP design principles](solid-oop-design-principles.md)
+- [Java basics](java-basics.md) · [Study index](../README.md#study-guides)
