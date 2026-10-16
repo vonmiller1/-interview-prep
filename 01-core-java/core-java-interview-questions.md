@@ -4230,3 +4230,5 @@ Real backend example?
 ```
 
 That is what separates a memorized interview answer from an experienced engineering answer.
+
+Review topic depth in the [Core Java guides](java-basics.md) or the [30-day roadmap](../ROADMAP.md).
