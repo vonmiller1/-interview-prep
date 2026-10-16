@@ -1535,6 +1535,8 @@ String sql =
     "SELECT * FROM users WHERE email = '" + email + "'";
 ```
 
+Untrusted input in concatenated SQL can alter query logic (SQL injection). Treat every value from HTTP, files, or messages as untrusted until validated and bound as a parameter.
+
 Prefer:
 
 ```text
