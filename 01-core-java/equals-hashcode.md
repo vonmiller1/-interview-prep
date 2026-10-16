@@ -1397,3 +1397,14 @@ equals + hashCode
 ```
 
 Understanding these contracts helps prevent subtle production bugs involving missing map lookups, duplicate objects and unstable cache keys.
+
+---
+
+## Contract checklist
+
+When overriding `equals()` and `hashCode()`:
+
+1. Use the **same set of fields** in both methods that define business equality.
+2. **`equals()` must be reflexive, symmetric, transitive, and consistent**; compare class or use `instanceof`/`getClass()` consistently for inheritance.
+3. If `a.equals(b)`, then **`a.hashCode() == b.hashCode()`** (required); the converse may be false due to hash collisions.
+4. Do not use **mutable fields** in `hashCode()` if the object can be stored in a hash-based collection while those fields change.
