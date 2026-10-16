@@ -2691,17 +2691,18 @@ Before moving on, make sure you can explain these without memorizing definitions
 ✓ Lambdas
 ```
 
-This file is the foundation for the rest of the Core Java section. For deeper topics, refer to:
+This file is the foundation for the rest of the Core Java section. Next topics:
 
-```text
-collections.md
-equals-hashcode.md
-exception-handling.md
-generics.md
-java-8-features.md
-java-8-lambda-streams.md
-jvm-memory-gc.md
-multithreading-concurrency.md
-oops.md
-strings.md
-```
+| Guide | Focus |
+| --- | --- |
+| [OOP](oops.md) | Inheritance, polymorphism, interfaces |
+| [Collections](collections.md) | Lists, sets, maps, complexity |
+| [equals/hashCode](equals-hashcode.md) | Hash-based collections |
+| [Exception handling](exception-handling.md) | Checked/unchecked, try-with-resources |
+| [Generics](generics.md) | Type safety and bounds |
+| [Java 8 lambdas & streams](java-8-lambda-streams.md) | Functional style |
+| [JVM memory & GC](jvm-memory-gc.md) | Heap, stack, collectors |
+| [Multithreading](multithreading-concurrency.md) | Threads, locks, executors |
+| [Strings](strings.md) | Immutability and performance |
+
+[Study index](../README.md#study-guides) · [Roadmap](../ROADMAP.md)
