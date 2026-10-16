@@ -2278,3 +2278,5 @@ Large I/O concurrency → Consider virtual threads
 The goal is not to memorize every concurrency class.
 
 The goal is to choose the **simplest correct concurrency mechanism for the problem**.
+
+**Deadlock avoidance:** When multiple locks are required, acquire them in a **fixed global order** across the codebase (or use try-lock with timeout and backoff). Document lock ordering in code reviews when introducing nested synchronization.
