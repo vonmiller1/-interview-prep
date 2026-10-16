@@ -1,1 +1,13 @@
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# Local tooling (do not commit agent/worktree metadata)
+.kilo/
