@@ -2041,3 +2041,5 @@ This foundation will make the next topics much easier:
       ↓
 10 Spring Data JPA
 ```
+
+Continue with [Project structure](02-spring-boot-project-structure.md). [Study index](../README.md#study-guides) · [Roadmap](../ROADMAP.md)
