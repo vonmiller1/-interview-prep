@@ -656,6 +656,15 @@ JPA repositories
 Validated query parameters
 ```
 
+Safe JDBC-style binding:
+
+```java
+PreparedStatement ps = connection.prepareStatement(
+    "SELECT id, name FROM users WHERE name = ?"
+);
+ps.setString(1, name);
+```
+
 ---
 
 # 29. JPA and SQL Injection
