@@ -1127,3 +1127,11 @@ Security + observability
 # Final Rule
 
 > **Design REST APIs around resources, use HTTP semantics correctly, keep controllers thin, separate API DTOs from persistence entities, return meaningful status codes, validate inputs, handle errors consistently, and design the API contract with scalability and backward compatibility in mind.**
+
+---
+
+## See also
+
+- [HTTP methods and status codes](02-http-methods-and-status-codes.md)
+- [REST API security best practices](15-rest-api-security-best-practices.md)
+- [Study index](../README.md#study-guides)
