@@ -1894,8 +1894,4 @@ Practical
 Based on real experience
 ```
 
-Next:
-
-```text
-17-spring-boot-real-world-scenarios.md
-```
+Next: [Spring Boot real-world scenarios](17-spring-boot-real-world-scenarios.md) · [Study index](../README.md#study-guides)
